@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    flex-direction: column;
+    
+    background-color: hsl(0, 0%, 12%);
+    font-family: 'Inter';
+    font-size: 14px;
+    border-radius: 20px;
+    gap: 10px;
+    padding: 20px
+}
+
+.card img{
+    border-radius: 100%;  
+    width: 10rem;
+    height: 10rem;
+}
+
+ .nome{
+    color:hsl(0, 0%, 100%);
+    margin: 10px 0;
+}
+
+.cidade{
+    color:hsl(75, 94%, 57%);
+    margin: -15px 0px 0px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.trabalho{
+    color:hsl(0, 0%, 100%);
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.botao{
+    background-color: hsl(0, 0%, 20%);
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px; 
+    border: none;
+    width: 70%;
+    border-radius: 5px;
+    margin: 0px 0;
+}
+
+.botao:hover{
+    background-color: hsl(75, 67%, 37%);
+    cursor: pointer;
+    border: black;
+    box-shadow: 0 8px 16px 0 rgba(218, 203, 203, 0.2)
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    font-family: 'Inter'; 
+    color:whitesmoke;
+    padding: 20px;
+}
+.attribution a { color: red; }
